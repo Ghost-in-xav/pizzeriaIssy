@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 42 50% 94%;
+    --foreground: 0 0% 11%;
+    --primary: 0 49% 47%;
+    --primary-foreground: 42 50% 94%;
+    --secondary: 122 45% 34%;
+    --secondary-foreground: 42 50% 94%;
+    --muted: 42 30% 88%;
+    --muted-foreground: 0 0% 35%;
+    --accent: 41 53% 54%;
+    --accent-foreground: 0 0% 11%;
+    --border: 0 0% 11% / 0.1;
+    --input: 0 0% 11% / 0.1;
+    --ring: 0 49% 47%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cream text-charcoal font-sans;
+    background-image:
+      radial-gradient(at 0% 0%, rgba(201, 162, 75, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(179, 58, 58, 0.06) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-tomato text-cream-soft;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[0.7rem] font-semibold uppercase tracking-[0.28em] text-tomato;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-tomato/60;
+  }
+
+  .h-display {
+    @apply font-serif text-4xl leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl;
+  }
+
+  .h-section {
+    @apply font-serif text-3xl leading-tight sm:text-4xl md:text-5xl;
+  }
+
+  .body-lg {
+    @apply text-lg leading-relaxed text-charcoal/75;
+  }
+
+  .paper-texture {
+    background-color: #f7f1e3;
+    background-image:
+      radial-gradient(rgba(28, 28, 28, 0.04) 1px, transparent 1px),
+      radial-gradient(rgba(28, 28, 28, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px, 18px 18px;
+    background-position: 0 0, 12px 9px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
