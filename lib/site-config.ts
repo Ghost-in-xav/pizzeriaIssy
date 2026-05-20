@@ -15,7 +15,7 @@ export const siteConfig = {
   phoneDisplay: "01 75 32 35 74",
   whatsapp: "+33175323574",
   email: "bonjour@pizzadissy.fr",
-  geo: { latitude: 48.8246, longitude: 2.2691 },
+  geo: { latitude: 48.8221, longitude: 2.2728 },
   priceRange: "€€",
   hours: [
     { day: "Lundi", value: "12:00 – 15:00" },
@@ -28,10 +28,11 @@ export const siteConfig = {
   ],
   socials: {
     instagram: "https://instagram.com/pizzadissy",
-    google: "https://maps.google.com/?q=Pizza+d'Issy+Issy-les-Moulineaux",
+    google:
+      "https://www.google.com/maps/search/?api=1&query=Pizza+d%27Issy+8+Rue+Jeanne-d%27Arc+92130+Issy-les-Moulineaux",
   },
   mapsEmbedSrc:
-    "https://www.google.com/maps?q=Issy-les-Moulineaux,France&output=embed",
+    "https://maps.google.com/maps?q=Pizza+d%27Issy,+8+Rue+Jeanne-d%27Arc,+92130+Issy-les-Moulineaux&output=embed&hl=fr",
 };
 
 export type SiteConfig = typeof siteConfig;
