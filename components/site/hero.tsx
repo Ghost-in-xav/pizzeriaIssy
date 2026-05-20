@@ -98,12 +98,12 @@ export function Hero() {
                 ))}
               </div>
               <span className="text-cream-soft/80">
-                <strong className="text-cream-soft">4,9 / 5</strong> · Google
+                <strong className="text-cream-soft">4,8 / 5</strong> · Google
               </span>
             </div>
             <div className="hidden sm:block h-4 w-px bg-cream-soft/20" />
             <div className="text-cream-soft/70">
-              Plus de <strong className="text-cream-soft">600 avis</strong>
+              <strong className="text-cream-soft">149 avis</strong> Google
             </div>
           </motion.div>
         </motion.div>
