@@ -10,7 +10,7 @@ export function FinalCTA() {
     <section className="relative py-24 md:py-32 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <Image
-          src="https://images.unsplash.com/photo-1571066811602-716837d681de?auto=format&fit=crop&w=2000&q=85"
+          src="/interieur.png"
           alt=""
           fill
           sizes="100vw"

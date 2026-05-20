@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,7 +14,18 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <header className="pt-32 md:pt-40 pb-12">
+      <header className="relative pt-32 md:pt-40 pb-12 overflow-hidden">
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/exterieur.png"
+            alt="Terrasse du restaurant Pizza d'Issy"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-cream/70 via-cream/90 to-cream" />
+        </div>
         <div className="container-tight max-w-3xl">
           <span className="eyebrow">Nous écrire, nous trouver</span>
           <h1 className="h-display mt-4 text-balance">

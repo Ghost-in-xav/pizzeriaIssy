@@ -31,8 +31,8 @@ export default function AboutPage() {
       <section className="container-tight">
         <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-3xl shadow-2xl shadow-charcoal/20">
           <Image
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2000&q=85"
-            alt="Vue du restaurant Pizza d'Issy"
+            src="/exterieur.png"
+            alt="Terrasse du restaurant Pizza d'Issy — enseigne Napoletano"
             fill
             priority
             sizes="100vw"
@@ -68,8 +68,8 @@ export default function AboutPage() {
         <div className="container-tight grid gap-12 md:grid-cols-2 items-center">
           <div className="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-2xl shadow-xl shadow-charcoal/15 order-2 md:order-1">
             <Image
-              src="https://images.unsplash.com/photo-1593504049359-74330189a345?auto=format&fit=crop&w=1200&q=85"
-              alt="Four à bois traditionnel"
+              src="/interieur.png"
+              alt="La salle du restaurant Pizza d'Issy à Issy-les-Moulineaux"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"

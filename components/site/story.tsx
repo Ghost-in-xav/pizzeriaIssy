@@ -19,8 +19,8 @@ export function Story() {
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl shadow-charcoal/20">
             <Image
-              src="https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1000&q=85"
-              alt="Pizzaiolo travaillant la pâte à la main"
+              src="/interieur.png"
+              alt="La salle du restaurant Pizza d'Issy — ambiance chaleureuse et dorée"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
