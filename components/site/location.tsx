@@ -18,11 +18,11 @@ export function Location() {
         >
           <span className="eyebrow">Nous trouver</span>
           <h2 className="h-section mt-4 text-balance">
-            À deux pas du métro Mairie d'Issy.
+            À deux pas du centre d'Issy-les-Moulineaux.
           </h2>
           <p className="body-lg mt-4">
-            Ouvert du mardi au dimanche, midi et soir. Réservation conseillée le
-            week-end.
+            Ouvert du lundi au vendredi midi, et du mardi au samedi soir. Réservation
+            conseillée le week-end.
           </p>
 
           <div className="mt-8 space-y-4">

@@ -70,7 +70,7 @@ export default function ReservationPage() {
                   <div>
                     <div className="font-medium text-charcoal">Horaires</div>
                     <div className="text-charcoal/65">
-                      Mar – Dim · midi & soir
+                      Lun – Ven · midi · Mar – Sam · soir
                     </div>
                   </div>
                 </li>
