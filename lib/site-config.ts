@@ -27,7 +27,7 @@ export const siteConfig = {
     { day: "Dimanche", value: "Fermé" },
   ],
   socials: {
-    instagram: "https://instagram.com/pizzadissy",
+    instagram: "https://www.instagram.com/pizzadissy/",
     google:
       "https://www.google.com/maps/search/?api=1&query=Pizza+d%27Issy+8+Rue+Jeanne-d%27Arc+92130+Issy-les-Moulineaux",
   },
